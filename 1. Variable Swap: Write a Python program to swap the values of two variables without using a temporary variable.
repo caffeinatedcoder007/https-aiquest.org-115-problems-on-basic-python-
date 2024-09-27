@@ -1,0 +1,13 @@
+x = input("Enter your number : ")
+y = input("Enter your number : ")
+
+print("Before swapping:")
+print("x =", x)
+print("y =", y)
+
+# Swap the values of x and y
+x, y = y, x
+
+print("\nAfter swapping:")
+print("x =", x)
+print("y =", y)
