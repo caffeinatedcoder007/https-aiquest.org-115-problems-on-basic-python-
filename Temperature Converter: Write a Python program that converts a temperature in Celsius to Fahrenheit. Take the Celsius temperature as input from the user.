@@ -1,0 +1,8 @@
+def celcius_to_farenhite(celsius) : 
+    farenhite = (celsius *9/5) + 32 
+    return farenhite
+celsius = float(input("Enter your temperature : "))
+farenhite = celcius_to_farenhite(celsius)
+
+print(f"{ celsius} degrees is equal to {farenhite } degree farenhite")
+
