@@ -1,0 +1,11 @@
+def convert_to_strings(integer_list):
+
+
+  string_list = []
+  for integer in integer_list:
+    string_list.append(str(integer))
+  return string_list
+
+integer_list = [1, 2, 3, 4, 5]
+string_list = convert_to_strings(integer_list)
+print(string_list)  
